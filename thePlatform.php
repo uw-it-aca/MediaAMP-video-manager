@@ -100,7 +100,7 @@ class ThePlatform_Plugin {
 	 * @return array The updated array of tabs
 	 */
 	function tp_upload_tab( $tabs ) {
-		$tabs['theplatform'] = "mpx Video Manager";
+		$tabs['theplatform'] = "Browse MPX Media";
 
 		return $tabs;
 	}
