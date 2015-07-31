@@ -2,7 +2,7 @@
 
 /* thePlatform Video Manager Wordpress Plugin
 
-  Copyright (C) 2013-2015 thePlatform for Media Inc.
+  Copyright (C) 2013-2015 thePlatform LLC.
 
 
   This program is free software; you can redistribute it and/or modify

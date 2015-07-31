@@ -1,6 +1,6 @@
 /* thePlatform Video Manager Wordpress Plugin
 
- Copyright (C) 2013-2015 thePlatform for Media Inc.
+ Copyright (C) 2013-2015 thePlatform, LLC
 
 
  This program is free software; you can redistribute it and/or modify
@@ -29,7 +29,7 @@ tinymce.PluginManager.add('theplatform', function (editor, url) {
     // Add a button that opens a window
     editor.addButton('theplatform', {
         tooltip: 'Embed MPX Media',
-        image: url.substring(0, url.lastIndexOf('/js')) + '/images/embed_button.png',
+        image: url.substring(0, url.lastIndexOf('/js')) + '/images/MediaAMP_button_icon.png',
         onclick: function () {
             wp.media({
                 frame: 'post',

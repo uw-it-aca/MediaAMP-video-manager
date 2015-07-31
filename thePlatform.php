@@ -3,10 +3,10 @@
   Plugin Name: MediaAMP Video Manager
   Plugin URI: http://theplatform.com/
 
-  Description: Manage video assets hosted in thePlatform mpx from within WordPress.
+	Description: Manage video assets hosted in thePlatform mpx from within WordPress.
   Version: 2.0.0
-  Author: thePlatform for Media, Inc.
-  Author URI: http://theplatform.com/; http://mpx.mediaamp.org/
+  Author: thePlatform
+  Author URI: http://theplatform.com/
 
   License: GPL2
 
@@ -84,7 +84,7 @@ class ThePlatform_Plugin {
 		}
 
 
-		add_shortcode( 'theplatform', array( $this, 'shortcode' ) );
+		add_shortcode( 'mediaamp', array( $this, 'shortcode' ) );
 
 	}
 
@@ -217,7 +217,7 @@ class ThePlatform_Plugin {
 		$slug = 'theplatform';
 
 		add_menu_page( 'MediaAMP', 'MediaAMP', $this->tp_editor_cap, $slug, array( $this, 'media_page' ), 'dashicons-video-alt3', '10.0912' );
-		add_submenu_page( $slug, 'MediaAMP Video Browser', 'mpx Video Manager', $this->tp_editor_cap, $slug, array( $this, 'media_page' ) );
+		add_submenu_page( $slug, 'MediaAMP Video Browser', 'Browse MPX Media', $this->tp_editor_cap, $slug, array( $this, 'media_page' ) );
 		add_submenu_page( $slug, 'MediaAMP Video Uploader', 'Upload Video', $this->tp_uploader_cap, 'theplatform-uploader', array( $this, 'upload_page' ) );
 		add_submenu_page( $slug, 'MediaAMP Plugin Settings', 'Settings', $this->tp_admin_cap, 'theplatform-settings', array( $this, 'admin_page' ) );
 		add_submenu_page( $slug, 'MediaAMP Plugin About', 'About', $this->tp_editor_cap, 'theplatform-about', array( $this, 'about_page' ) );

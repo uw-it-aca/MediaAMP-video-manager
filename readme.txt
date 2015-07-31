@@ -1,7 +1,7 @@
 === thePlatform Video Manager ===
 
-Developed By: thePlatform for Media, Inc.
-Tags: embedding, video, embed, portal, mediaamp, shortcode
+Developed By: thePlatform LLC
+Tags: embedding, video, embed, portal, theplatform, shortcode
 
 Requires at least: 3.7
 Tested up to: 4.2
