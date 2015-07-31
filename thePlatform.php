@@ -596,8 +596,8 @@ class ThePlatform_Plugin {
 		}
 
 		if ( in_array( $this->preferences['embed_hook'], array( 'tinymce', 'both' ) ) ) {
-			$image_url = plugins_url( '/images/embed_button.png', __FILE__ );
-			echo '<a href="#" class="button" id="theplatform-media-button"><img src="' . esc_url( $image_url ) . '" alt="thePlatform" style="vertical-align: text-top; height: 18px; width: 18px;">thePlatform</a>';
+			$image_url = plugins_url( '/images/MediaAMP_button_icon.png', __FILE__ );
+			echo '<a href="#" class="button" id="theplatform-media-button"><img src="' . esc_url( $image_url ) . '" alt="thePlatform" style="vertical-align: text-top; height: 18px; width: 18px;">MediaAMP</a>';
 		}
 	}
 
