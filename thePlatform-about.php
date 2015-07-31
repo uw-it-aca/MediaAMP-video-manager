@@ -51,14 +51,14 @@ if ( current_user_can( $tp_admin_cap ) ) {
 ?>
 
 <div class="wrap">
-	<h2>thePlatform Video Manager</h2>
+	<h2>MediaAMP Video Manager Wordpress Plugin version</h2>
 
 	<p>Version <?php echo TP_PLUGIN_VERSION; ?><br>
 		Copyright (C) 2013-<?php echo date( "Y" ); ?> thePlatform LLC.<br>
 	</p>
 
 	<p>The latest version of the plugin can be found at our GitHub repository:
-		<a href="https://github.com/thePlatform/thePlatform-video-manager">thePlatform-video-manager</a>
+		<a href="https://github.com/uw-it-aca/thePlatform-video-manager">uw-it-aca/thePlatform-video-manager</a>
 	</p>
 
 	<p>The following libraries are used under their respective licenses:<br>

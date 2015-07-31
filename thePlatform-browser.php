@@ -46,7 +46,7 @@ $IS_EMBED = $page_hook != 'toplevel_page_theplatform';
 
 <div class="wrap">
 	<?php if ( ! $IS_EMBED ) {
-		echo '<img width="132px" src="/itconnect/wp-content/plugins/MediaAMP-video-manager/images/MediaAMP-light.png" )>';
+		echo '<h2>Browse MPX Media</h2>';
 	} ?>
 
 	<!-- Write out the search bar -->
