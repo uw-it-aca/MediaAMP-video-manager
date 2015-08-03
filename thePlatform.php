@@ -29,7 +29,7 @@
   qaz2wsx3@uw.edu: changed the shortcode from [theplatform] to [mediaamp]
                    changed the text of the menus
                    chagned the name of the plugin to MediaAMP Video Manager
-                   changed the link that is referenced by the plugin site & author to http://mpx.mediaamp.org/ 
+                   changed the link that is referenced by the plugin site & author to http://mpx.mediaamp.org/
 
  */
 
@@ -95,7 +95,7 @@ class ThePlatform_Plugin {
 	 * @return array The updated array of tabs
 	 */
 	function tp_upload_tab( $tabs ) {
-		$tabs['theplatform'] = "mpx Video Manager";
+		$tabs['theplatform'] = "MediaAMP";
 
 		return $tabs;
 	}
@@ -589,8 +589,8 @@ class ThePlatform_Plugin {
 		}
 
 		if ( in_array( $this->preferences['embed_hook'], array( 'tinymce', 'both' ) ) ) {
-			$image_url = plugins_url( '/images/embed_button.png', __FILE__ );
-			echo '<a href="#" class="button" id="theplatform-media-button"><img src="' . esc_url( $image_url ) . '" alt="thePlatform" style="vertical-align: text-top; height: 18px; width: 18px;">thePlatform</a>';
+			$image_url = plugins_url( '/images/MediaAMP_button_icon.png', __FILE__ );
+			echo '<a href="#" class="button" id="theplatform-media-button"><img src="' . esc_url( $image_url ) . '" alt="thePlatform" style="vertical-align: text-top; height: 18px; width: 18px;">MediaAMP</a>';
 		}
 	}
 
