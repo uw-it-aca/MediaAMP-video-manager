@@ -137,7 +137,7 @@ if ( ! $IS_EMBED && current_user_can( $tp_editor_cap )) {
 	</script>
 
 	<script id="shortcode-template" type="text/template">
-		[theplatform account="<%= account %>" media="<%= release %>" player="<%= player %>"]
+		[mediaamp account="<%= account %>" media="<%= release %>" player="<%= player %>"]
 	</script>
 
 	<script id="error-template" type="text/template">
