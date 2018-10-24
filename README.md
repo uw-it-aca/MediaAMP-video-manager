@@ -1,3 +1,6 @@
+This re-skinned plugin is no longer maintained by uw-it-aca.
+
+
 # === thePlatform Video Manager ===
 Developed By: thePlatform for Media, Inc.  
 Tags: embedding, video, embed, portal, theplatform, shortcode  
